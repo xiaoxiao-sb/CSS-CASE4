@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.one{
+				width: 100px;
+				height: 100px;
+				background: red;
+				/*左浮动*/
+				float:left;
+				/*display: inline-block;*/
+				/*padding: 0px;*/
+			}
+			.two{
+				width: 200px;
+				height: 200px;
+				background: green;
+				/*float:left;*/
+				/*display: inline-block;*/
+			}
+			.three{
+				width: 300px;
+				height: 300px;
+				background: blue;
+				/*float:left;*/
+				/*display: inline-block;*/
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			之前学习的三种显示模式称为标准流
+			
+			浮动:也是个属性,float,浮动是一个半脱离标准流的状态,也叫浮动流,元素加了浮动属性后,
+			不在具备之前的显示模式特征,元素的宽高在不设置的情况下,靠内容撑开,会对后面的块级显示模式的元素造成影响
+			设置宽高起作用,会随着标签书写的顺序依次排列
+		-->
+		<div class="one">11</div> 
+		<div class="two">文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕文本环绕</div>
+		<div class="three">33</div>
+	</body>
+</html>
